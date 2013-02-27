@@ -70,7 +70,7 @@ public class ActiveListTypeResource extends MetadataDelegatingCrudResource<Activ
 	@Override
 	public void purge(ActiveListType activeListType, RequestContext context) throws ResponseException {
 		
-		//I'm trying to implement purge here..w
+		//Let's try another conflict
 		
 		throw new ResourceDoesNotSupportOperationException();
 	}
