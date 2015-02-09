@@ -33,7 +33,7 @@ public class HelpController {
 	
 	@RequestMapping("/module/webservices/rest/help")
 	public void showPage(ModelMap map, HttpServletRequest request) throws IllegalAccessException, InstantiationException,
-	        IOException, ConversionException {
+	                                                              IOException, ConversionException {
 		
 		// TODO put content into map about controller annotations and resource
 		// views
